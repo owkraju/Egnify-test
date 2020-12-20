@@ -9,7 +9,7 @@ for k in range(0,5):
 	book = openpyxl.load_workbook(b[k])
 	sub_name=b[k].split('-')
 	sub_name=sub_name[1].split('.')
-	print sub_name[0]
+	
 	sheet = book.active
 	clas='6th'
 	i=1	
